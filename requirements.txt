@@ -1,0 +1,20 @@
+# OCR Text Extractor - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core OCR functionality
+pytesseract>=3.10.1
+
+# PDF to image conversion
+pdf2image>=3.1.0
+
+# Image processing and computer vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: For better performance and additional image processing
+opencv-contrib-python>=4.8.0
+
+# Development and testing (optional)
+# pytest>=7.4.0
+# black>=23.0.0
